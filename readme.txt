@@ -41,6 +41,22 @@ git@localhost:sample.git后，发现sample目录，并且在sample下有readme.t
 
 
 
+-------------------------------------create a new repository on the command
+line------------------------
+
+echo "# learning" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:QQ-Naruto-Name/learning.git
+git push -u origin master
+
+-------------------------push an existing repository from the command
+line------------------------------
+git remote add origin git@github.com:QQ-Naruto-Name/learning.git
+git push -u origin master
+
+
 
 
 
